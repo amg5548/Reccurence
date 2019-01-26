@@ -1,7 +1,7 @@
 
 public class Library {
 
-    public static String reccurenceFinder(String string) {
+    public static String recurrenceFinder(String string) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < string.length(); i++) {
             int counter = 0;
@@ -15,6 +15,6 @@ public class Library {
                 }
             }
         }
-        return "No recurring values for given string!";
+        return null;
     }
 }
